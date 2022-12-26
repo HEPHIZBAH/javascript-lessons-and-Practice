@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPTS LESSONS</title>
+    <link rel="stylesheet" href="js-index.css">
+</head>
+<body>
+    <div style="background-color: rgba(255, 0, 0, 0.801); width: 300px;height: 300px;">
+    <h1>Number of People Entered</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">Previous Enteries : </p>
+     </div>
+
+     <div style="background-color: rgba(0, 128, 0, 0.651); width: 300px;height: 300px;">
+      <h1>GUESSING GAME</h1>
+   <h6 id="game-points">3</h6>
+   <button id="point-add" onclick="add3Points()">WIN</button>
+   <button id="point-remove" onclick="remove1Point()">LOSE</button>
+   <button id="gameover" onclick="gameOver()">GAME OVER</button>
+     </div>
+
+
+     <div style="background-color: rgba(0, 0, 255, 0.822); width: 300px;height: 300px;">
+        <h1>NIKE SHOES</h1>
+        <button onclick="btn()">PURCHASE - $149</button>
+        <P id="error"></P>
+
+     </div>
+     <div style="background-color: rgba(176, 224, 230, 0.795); width: 300px;height: 300px;">
+        <span id="num1-el"></span>
+        <span id="num2-el"></span> <br>
+        <button onclick="add()">ADD</button>
+        <button onclick="subtract()">SUBTRACT</button>
+        <button onclick="divide()">DIVIDE</button>
+        <button onclick="multipy()">MULTIPLY</button>
+         <br>
+         <span id="sum-el">Sum: </span>
+    </div>
+    <div class="game" style="background-color: rgba(0, 128, 0, 0.651); width: 300px;height: 300px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        <h1>Blackjack</h1>
+        <p id="black-jack">Want to Play A Round?</p>
+        <p id="card-el">cards: </p>
+        <p id="suum-el">sum: </p>
+        <button id="game-start" onclick="startGame()">START GAME</button>
+        <button id="new-card" onclick="newCard()">NEW CARD</button>
+           
+    </div>
+    <div class="my-story" style="background-color: rgba(33, 19, 230, 0.651); width: 300px;height: 300px;font-family: 'Trebuchet MS';">
+        <div class="flex1"><div class="image"><img src="mypic.jpeg" alt="image"></div><div class="name">Joy Udoh <p>Meet Me</p></div></div>
+        <div class="flex2">
+            <button onclick="experience()">Experience</button>
+            <button onclick="education()">Education</button>
+            <button onclick="licences()">Licences</button>
+            <button onclick="skills()">Skills</button>
+            <button onclick="conclude()">Relationship</button>
+            <h6 id="my-Story">Waiting for your Question!!</h6>
+        </div>
+    </div>
+    <!-- <div class="surprises" style="background-color: rgba(243, 247, 11, 0.733); width: 300px;height: 300px;">
+        <h4>I have a surprise for You</h4>
+        <button onclick="surprise()">TAP TO RECEIVE</button>
+        <h1 id="count"></h1>
+        <button onclick="gift()">SEE HIDDEN GIFT</button>
+    </div> -->
+    <script src="js-index.js"></script>
+</body>
+</html>
